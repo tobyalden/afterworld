@@ -38,7 +38,7 @@ public class PlayerHealth : MonoBehaviour
     void Update ()
     {
 		timer += Time.deltaTime;
-		Debug.Log ("Timer:" + timer);
+//		Debug.Log ("Timer:" + timer);
 
 		if(timer > timeBetweenDamageFeedback)
 		{
@@ -77,8 +77,8 @@ public class PlayerHealth : MonoBehaviour
 		{
 			currentHealth = maxHealth;
 		}
-		Debug.Log ("Health: " + currentHealth);
-		Debug.Log ("Dead?: " + isDead);
+//		Debug.Log ("Health: " + currentHealth);
+//		Debug.Log ("Dead?: " + isDead);
 
         // Play the hurt sound effect.
 //        playerAudio.Play ();

@@ -1,12 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LightDetector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerHealth.cs">
     <Files>
-      <File FileName="Assets\LightDetector.cs" Line="12" Column="32" />
+      <File FileName="Assets\PlayerHealth.cs" Line="86" Column="92" />
+      <File FileName="Assets\LightDetector.cs" Line="29" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\Code\afterworld\Assets\PlayerHealth.cs" line="108" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
