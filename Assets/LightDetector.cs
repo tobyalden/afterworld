@@ -1,18 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerManager : MonoBehaviour {
+public class LightDetector : MonoBehaviour {
 	
 	public bool inLight;
-	public float maxHealth;
-	public float currentHealth;
-	public bool alive;
-	
+	public float healSpeed;
+	public float damageSpeed;
+
+	GameObject player;
+	PlayerHealth playerHealth;
 	// Use this for initialization
+
+	void Awake () {
+		player = GameObject.FindGameObjectWithTag ("Player");
+		playerHealth = player.GetComponent <PlayerHealth> ();
+	}
+
 	void Start () {
 		inLight = false;
-		currentHealth = maxHealth;
-		alive = true;
 	}
 	
 	// Update is called once per frame
@@ -51,34 +56,17 @@ public class PlayerManager : MonoBehaviour {
 
 		if (inLight)
 		{
-			currentHealth += Time.deltaTime * 5;
 
-			if (currentHealth > maxHealth)
-			{
-				currentHealth = maxHealth;
-			}
+			playerHealth.TakeDamage(Time.deltaTime * healSpeed);
 
 		}
 		else
 		{
-			currentHealth -= Time.deltaTime * 10;
-
-			if (currentHealth < 0)
-			{
-				alive = false;	
-			}
+			playerHealth.TakeDamage(Time.deltaTime * damageSpeed);
 
 		}
 
 
-	}
-
-	void OnGUI()
-	{
-		GUILayout.BeginArea(new Rect(10f, 10f, Screen.width, Screen.height));	
-		GUILayout.Label("Health:  " + (int)currentHealth + "/" + maxHealth);
-		GUILayout.Label("Alive: " + alive);
-		GUILayout.EndArea();
 	}
 
 	public bool V3Equal(Vector3 a, Vector3 b){

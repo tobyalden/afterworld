@@ -14,12 +14,12 @@ Platform assembly: D:\Code\afterworld\Alpha Build_Data\Managed\Assembly-CSharp.d
 Loading D:\Code\afterworld\Alpha Build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: D:\Code\afterworld\Alpha Build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading D:\Code\afterworld\Alpha Build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.039 seconds
+- Completed reload, in  0.181 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: D:\Code\afterworld\Alpha Build_Data\Managed\System.Core.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1a30 -> priority: 1 
-  Thread -> id: bf0 -> priority: 1 
+  Thread -> id: 1a6c -> priority: 1 
+  Thread -> id: 19f0 -> priority: 1 
