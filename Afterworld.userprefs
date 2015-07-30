@@ -1,17 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LevelSpawn.cs">
     <Files>
-      <File FileName="Assets\LevelSpawn.cs" Line="46" Column="27" />
-      <File FileName="Assets\PlayerHealth.cs" Line="65" Column="24" />
-      <File FileName="Assets\LightDetector.cs" Line="35" Column="41" />
-      <File FileName="Assets\PlayerGUI.cs" Line="12" Column="3" />
+      <File FileName="Assets\IdolInteract.cs" Line="34" Column="43" />
+      <File FileName="Assets\LightDetector.cs" Line="62" Column="4" />
+      <File FileName="Assets\LevelSpawn.cs" Line="40" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="D:\Code\afterworld\Assets\PlayerHealth.cs" line="108" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
